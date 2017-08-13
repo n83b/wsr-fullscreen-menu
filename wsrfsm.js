@@ -4,5 +4,4 @@ jQuery(function(){
 		jQuery('#page-overlay').toggleClass("page-overlay--open");
 		jQuery('body').toggleClass("nooverflow");
 	});
-
 });

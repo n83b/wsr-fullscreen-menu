@@ -1,5 +1,5 @@
 <nav id="main-nav" class="navbar navbar-default"> <!-- navbar-fixed-top -->
-    <div class="container">
+    <div class="container-fluid">
 
             <a href="<?php bloginfo('url') ?>" class="navbar-brand" href="#"><h1>Bootstrap theme</h1></a>
             <div class="burger-holder">
@@ -8,7 +8,11 @@
             </div>
              <div class="clear"></div>
 
-        <div id="page-overlay" class="page-overlay">
+        
+    </div>
+</nav>
+
+<div id="page-overlay" class="page-overlay">
            <?php wp_nav_menu( array(  
                 'menu'              => 'primary',
                 'theme_location'    => 'primary',
@@ -16,5 +20,3 @@
                 'container'         => 'div'
             )); ?>
         </div>
-    </div>
-</nav>
